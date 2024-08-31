@@ -1,0 +1,110 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // See https://aka.ms/bicep/config for more information on Bicep configuration options
+            // Press CTRL+SPACE/CMD+SPACE at any location to see Intellisense suggestions
+            "analyzers": {
+                "core": {
+                    "rules": {
+                        "no-unused-params": {
+                            "level": 
+                            
+                        }
+                    }
+                }
+            }
+        }
+        {
+            // See https://aka.ms/bicep/config for more information on Bicep configuration options
+            // Press CTRL+SPACE/CMD+SPACE at any location to see Intellisense suggestions
+            "analyzers": {
+                "core": {
+                    "rules": {
+                        "no-unused-params": {
+                            "level": "warning"
+                        }
+                    }
+                }
+            }
+        }
+
+        {
+            "name": "Embedded Debug",
+            "type": "embedded-debug",
+            "request": "launch",
+            "serialNumber": "<serial number of your device>",
+            "program": "${command:embedded-debug.getApplicationFile}",
+            "cmsisPack": "<path or URL of CMSIS Pack for your device>"
+        },
+
+
+
+
+        
+
+
+     {
+            "name": "Embedded Debug",
+            "type": "embedded-debug",
+            "request": "launch",
+            "serialNumber": "<serial number of your device>",
+            "program": "${command:embedded-debug.getApplicationFile}",
+            "cmsisPack": "<path or URL of CMSIS Pack for your device>"
+        },
+        {
+            // See https://aka.ms/bicep/config for more information on Bicep configuration options
+            // Press CTRL+SPACE/CMD+SPACE at any location to see Intellisense suggestions
+            "analyzers": {
+                "core": {
+                    "rules": {
+                        "no-unused-params": {
+                            "level": "warning"
+                        }
+                    }
+                }
+            }
+        }
+        {
+            "name": "Embedded Debug",
+            "type": "embedded-debug",
+            "request": "launch",
+            "serialNumber": "<serial number of your device>",
+            "program": "${command:embedded-debug.getApplicationFile}",
+            "cmsisPack": "<path or URL of CMSIS Pack for your device>"
+        },
+
+
+        {
+            "name": "Embedded Debug",
+            "type": "embedded-debug",
+            "request": "launch",
+            "serialNumber": "<serial number of your device>",
+            "program": "${command:embedded-debug.getApplicationFile}",
+            "cmsisPack": "<path or URL of CMSIS Pack for your device>"
+        },
+        {
+            // See https://aka.ms/bicep/config for more information on Bicep configuration options
+            // Press CTRL+SPACE/CMD+SPACE at any location to see Intellisense suggestions
+            "analyzers": {
+                "core": {
+                    "rules": {
+                        "no-unused-params": {
+                            "level": "warning"
+                        }
+                    }
+                }
+            }
+        }
+
+        {
+            "type": "android-webview",
+            "request": "attach",
+            "name": "Attach to Android WebView",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
